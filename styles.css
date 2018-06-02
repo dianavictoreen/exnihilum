@@ -1,0 +1,203 @@
+
+
+@font-face {
+    font-family: universcon;
+    src: url(https://cdn.glitch.com/4e3eca4b-7dd5-4cd7-b385-c72ca012c400%2FUniversLTStd-57-Cn.otf?1526833804893);
+}
+
+@font-face {
+    font-family: universlicon;
+    src: url(https://cdn.glitch.com/4e3eca4b-7dd5-4cd7-b385-c72ca012c400%2FUniversLTStd-47-LightCn.otf?1526833825232);
+}
+
+@font-face {
+    font-family: universconob;
+    src: url(https://cdn.glitch.com/4e3eca4b-7dd5-4cd7-b385-c72ca012c400%2FUniversLTStd-57-CnObl.otf?1526833809698);
+}
+
+@font-face {
+    font-family: universliconob;
+    src: url(https://cdn.glitch.com/4e3eca4b-7dd5-4cd7-b385-c72ca012c400%2FUniversLTStd-47-LightCnObl.otf?1526833827002);
+}
+
+@font-face {
+    font-family: universrom;
+    src: url(https://cdn.glitch.com/4e3eca4b-7dd5-4cd7-b385-c72ca012c400%2FUniversLTStd-55-Rom.otf?1526833818577);
+}
+
+html, body {
+  background-color: #E8F6F6;
+  font-family: universrom;
+  margin: 0;
+  padding: 0;
+}
+
+.outerdiv {
+  width: 92%;
+  height: auto;
+  margin-left: 4%;
+  border: 3px solid black; 
+  margin-bottom: 25px;
+  
+  -webkit-transition: all 2.5s ease-in-out;
+  -moz-transition: all 2.5s ease-in-out;
+  -ms-transition: all 2.5s ease-in-out;
+  -o-transition: all 2.5s ease-in-out;
+  transition: all 2.5s ease-in-out;
+}
+
+.containerdiv {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  border-top: 3px solid black; 
+}
+
+ul.main {
+  list-style: none;
+  margin-bottom: -3px;
+  padding: 0;
+}
+
+ul li.tab {
+  height: 15px; 
+  width: 10%;
+  border: 3px solid black;
+  margin-left: 30px;
+  font-size: 27px;
+  font-family: universconob;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ul li.tab.active {
+  position: relative;
+  border-bottom: 3px solid #E8F6F6;
+  cursor: default;
+  z-index: 100;
+}
+
+ul.top {
+  width: 60%;
+  margin-left:20%;
+  margin-bottom: 30px;
+  font-family: universliconob;
+  letter-spacing: 10px;
+  
+}
+
+ul li.header {
+  margin-left: 50px;
+  font-size:35px;
+  line-height: 120px;
+  height: 120px;
+  text-align: center;
+  padding: 15px;
+  display: inline-block;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.zinecontainer {
+  top: 3px;
+  width: 95%;
+  margin-left: .8%;
+  height: 100%;
+  padding: 20px;
+}
+
+.aboutcontainer {
+  top: 3px;
+  width: 95%;
+  margin-left: .8%;
+  height: 100%;
+  padding: 20px;
+}
+
+.shopcontainer {
+  top: 3px;
+  width: 95%;
+  margin-left: .8%;
+  height: 100%;
+  padding: 20px;
+  outline: 1px solid blue;
+}
+
+.submitcontainer {
+  top: 3px;
+  width: 95%;
+  margin-left: .8%;
+  height: 100%;
+  padding: 20px;
+  outline: 1px solid yellow;
+}
+
+.hide {
+  display: none
+}
+
+.zinemenu {
+  margin-top: 100px;
+  font-family: universliconob;
+  color: #828282;
+  font-size: 20px;
+  position: relative;
+/*   border: 1px solid blue; */
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 10px;
+}
+
+.zinemenu li{
+  padding: 15px;
+}
+
+.zinemenu li.current {
+  color: black;
+  cursor: pointer;
+}
+
+ul.zines {
+  list-style: none;
+}
+
+.zinecontent {
+  font-size: 20px;
+  position: relative;
+/*   border: 1px solid orange; */
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  padding-top: 30px;
+  overflow: auto;
+}
+
+.zinetitle h1{
+  font-family: universcon;
+  color: black;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.zinetitle h2 {
+  font-family: universlicon;
+  color: #828282;
+  font-size: 26px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.bodytext {
+  padding: 15px 15px 15px 0px;
+  margin-top: 5px;
+}
