@@ -72,3 +72,19 @@ $("#art" ).click(function() {
       $(".shopcontainer").addClass("hide");
       $(".submitcontainer").addClass("hide");
     });
+
+
+$("#contactus" ).click(function() {
+      $(".submitcontainer").removeClass("hide");
+      $("#submit").addClass("active");
+  
+      $("#about").removeClass("active");
+      $("#zine").removeClass("active");
+      $("#shop").removeClass("active");
+      $("#art").removeClass("active");
+  
+      $(".aboutcontainer").addClass("hide");
+      $(".zinecontainer").addClass("hide");
+      $(".shopcontainer").addClass("hide");
+      $(".artcontainer").addClass("hide");
+    });

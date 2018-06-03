@@ -85,7 +85,7 @@ ul li.tab.active {
 ul.top {
   width: 60%;
   margin-left:20%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-family: universliconob;
   letter-spacing: 10px;
   
@@ -174,7 +174,6 @@ ul.zines {
 .zinecontent {
   font-size: 20px;
   position: relative;
-/*   border: 1px solid orange; */
   display: inline-block;
   vertical-align: top;
   width: 70%;
@@ -182,22 +181,93 @@ ul.zines {
   overflow: auto;
 }
 
-.zinetitle h1{
+.artscroll {
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  padding-top: 30px;
+  overflow: auto;
+}
+
+.worktitle {
+  margin-bottom: 0px;
+}
+
+.worktitle h1{
   font-family: universcon;
   color: black;
   font-size: 36px;
-  margin: 0px;
+  margin-bottom: 0px;
 }
 
-.zinetitle h2 {
+.worktitle h2 {
   font-family: universlicon;
   color: #828282;
   font-size: 26px;
   padding: 0px;
   margin: 0px;
+  display: inline-block;
+}
+
+.worktitle h3 {
+  font-family: universlicon;
+  color: #828282;
+  font-size: 20px;
+  margin: 0% 0% 0% 50%;
+  display: inline-block;
 }
 
 .bodytext {
   padding: 15px 15px 15px 0px;
   margin-top: 5px;
+}
+
+.abouttext {
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  font-family: universrom;
+  font-size: 18px;
+  color: black;
+  line-height: 23px;
+}
+
+.abouttext br {
+  line-height: 50px;
+  display: block;
+}
+
+.biggrey {
+  width: 60%;
+  margin: 1% 20% 1% 20%;
+  text-transform: uppercase;
+  font-family: universconob;
+  color: #828282;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center; 
+}
+
+.smallimg {
+  width: 65%;
+  margin: 2% 17.25% 2% 17.25%;
+}
+
+.medimg {
+  width: 85%;
+  margin: 2% 7.5% 2% 7.5%;
+}
+
+#contactus {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#contactus:hover {
+  color: #828282;
+}
+
+.artcard {
+  margin-bottom: 100px;
 }
